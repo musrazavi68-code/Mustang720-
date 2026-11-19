@@ -1,0 +1,26 @@
+name: mustang720
+description: mustang720 (RAZ CONNECT) - proxy helper, news/Telegram hub, AI summary and games.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  http: ^1.2.2
+  xml: ^6.5.0
+  html: ^0.15.4
+  path_provider: ^2.1.4
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.3.2
+  cached_network_image: ^3.4.1
+  share_plus: ^10.0.0
+
+flutter:
+  uses-material-design: true
+  # فونت‌ها (Good Brush / Yekan Bold / Vazirmatn): فایل را در assets/fonts بگذارید و اینجا ثبت کنید.
